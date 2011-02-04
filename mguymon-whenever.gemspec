@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
     "lib/whenever/output_redirection.rb",
     "lib/whenever/setup.rb",
     "lib/whenever/version.rb",
+    "mguymon-whenever.gemspec",
     "test/functional/command_line_test.rb",
     "test/functional/output_at_test.rb",
     "test/functional/output_default_defined_jobs_test.rb",
