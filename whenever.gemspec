@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{whenever}
+  s.name = %q{mguymon-whenever}
   s.version = "0.6.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -43,7 +43,7 @@ Gem::Specification.new do |s|
      "test/unit/job_test.rb",
      "whenever.gemspec"
   ]
-  s.homepage = %q{http://github.com/javan/whenever}
+  s.homepage = %q{http://github.com/mguymon/whenever}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}

@@ -6,12 +6,12 @@ require File.expand_path(File.dirname(__FILE__) + "/lib/whenever/version")
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name        = "whenever"
+    gemspec.name        = "mguymon-whenever"
     gemspec.version     = Whenever::VERSION
     gemspec.summary     = "Write your cron jobs in ruby."
     gemspec.description = "Clean ruby syntax for writing and deploying cron jobs."
     gemspec.email       = "javan@javan.us"
-    gemspec.homepage    = "http://github.com/javan/whenever"
+    gemspec.homepage    = "http://github.com/mguymon/whenever"
     gemspec.authors     = ["Javan Makhmali"]
     gemspec.add_dependency 'aaronh-chronic', '>= 0.3.9'
     gemspec.add_dependency 'activesupport', '>= 2.3.4'
